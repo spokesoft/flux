@@ -9,3 +9,8 @@ on:
 jobs:
   publish:
     runs-on: windows-latest
+    
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
