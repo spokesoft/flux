@@ -18,4 +18,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Flux.Domain\Flux.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
